@@ -135,3 +135,14 @@ html, body {
   width: 150px;
   margin-bottom: 15px;
 }
+
+.thirds{
+  width: 33%;
+  height: 100%;
+  outline: 1px solid black;
+  float: left;
+}
+
+.stats {
+  margin-left: 35px;
+}

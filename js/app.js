@@ -8,12 +8,12 @@ app.config(function($routeProvider, $httpProvider){
   .when("/",{
   	templateUrl: "/js/home/homeTmpl.html",
   	controller: "homeCtrl",
-/*  	resolve: {
-  		teamService: function(homeService){
-  			return 
+  	resolve: {
+        allTeam: function(homeService){
+  			   return homeService.getAllTeamData(); 
+        }
   		}
-  	}*/
-  })
+  	})
   .when("/teams/:team",{
   	templateUrl: "/js/teams/teamTmpl.html",
   	controller: "teamCtrl",

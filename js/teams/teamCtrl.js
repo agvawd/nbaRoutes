@@ -40,6 +40,4 @@ app.controller('teamCtrl', function($scope, $routeParams, teamService, teamData)
 			});
 		});
 	}
-
-		console.log($scope.teamData);
 });
